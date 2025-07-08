@@ -1,0 +1,79 @@
+.a{
+    margin-left: 10px;
+    margin-top:7px;
+    font-size: 50px;
+    background:transparent;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.w{
+    margin-top:7px;
+    margin-left: 10px;
+    font-size:50px;
+    background:transparent;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.b{
+    margin-top:7px;
+    margin-left: 10px;
+    margin-top:7px;
+    font-size: 50px;
+    width:90px;
+    background:transparent;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.c{
+    margin-top:7px;
+    width:70px;
+    margin-left: 10px;
+    font-size: 50px;
+    width: 90px;
+    background:transparent;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.a:hover,.c:hover,.b:hover,.w:hover{
+    border: 1px solid #2ef;
+}
+.heading{
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 50px;
+    width: 400px;
+   margin-top: 30px;
+    margin-left: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.Main{
+    border: 5px solid rgba(255,255,255,0.1);
+    border-radius: 50px;
+     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    height: 500px;
+    padding: 30px;
+    width: 400px;
+    
+    place-items: center;
+    text-align: center;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
